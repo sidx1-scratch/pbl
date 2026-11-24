@@ -48,7 +48,7 @@ PBL Source (*.pbl)
 ### Building the PBL Compiler
 
 ```bash
-git clone <repo-url> pbl
+git clone https://github.com/sidx1-scratch/pbl pbl
 cd pbl
 cargo build --release
 ```
