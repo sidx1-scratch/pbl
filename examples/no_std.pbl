@@ -1,0 +1,15 @@
+// no_std example — PBL generating no_std compatible Rust
+project {
+    mode: no_std
+}
+
+rust {
+    #![no_main]
+
+    use core::panic::PanicInfo;
+
+    #[panic_handler]
+    fn panic(_info: &PanicInfo) -> ! {
+        loop {}
+    }
+}

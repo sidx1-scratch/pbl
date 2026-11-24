@@ -1,0 +1,12 @@
+fn main() {
+    let name: str = "Polar Bear"
+    let age: i32 = 11
+    let active: bool = true
+    mut score: i32 = 0
+    score = score + 1
+
+    println(name)
+    println(age)
+    println(active)
+    println(score)
+}

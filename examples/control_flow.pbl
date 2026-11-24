@@ -1,0 +1,22 @@
+fn main() {
+    let age = 11
+
+    if age >= 18 {
+        println("Adult")
+    } else if age >= 13 {
+        println("Teenager")
+    } else {
+        println("Child")
+    }
+
+    mut count = 0
+    while count < 5 {
+        println(count)
+        count += 1
+    }
+
+    let items = [1, 2, 3, 4, 5]
+    for item in items {
+        println(item)
+    }
+}

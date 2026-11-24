@@ -1,0 +1,7 @@
+crate rand = "0.9"
+
+use rand
+
+fn main() {
+    println("Using the rand crate!")
+}

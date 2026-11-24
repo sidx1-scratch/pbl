@@ -1,0 +1,14 @@
+fn main() {
+    // Use rust blocks for direct Rust access
+    rust {
+        use std::collections::HashMap;
+
+        let mut map = HashMap::new();
+        map.insert("bear", 42);
+        map.insert("penguin", 7);
+
+        for (key, value) in &map {
+            println!("{}: {}", key, value);
+        }
+    }
+}

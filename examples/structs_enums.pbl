@@ -1,0 +1,20 @@
+struct PolarBear {
+    name: str,
+    age: i32
+}
+
+enum Animal {
+    Bear,
+    Penguin,
+    Fox
+}
+
+fn describe_bear(bear: PolarBear) {
+    println(bear.name)
+    println(bear.age)
+}
+
+fn main() {
+    let bear = PolarBear { name: "Nanuk", age: 11 }
+    describe_bear(bear)
+}

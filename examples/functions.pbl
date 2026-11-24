@@ -1,0 +1,21 @@
+fn greet(name: str) {
+    println("Hello " + name)
+}
+
+fn add(a: i32, b: i32) -> i32 {
+    return a + b
+}
+
+fn is_adult(age: i32) -> bool {
+    return age >= 18
+}
+
+fn main() {
+    greet("Polar Bear")
+
+    let result = add(3, 7)
+    println(result)
+
+    let adult = is_adult(25)
+    println(adult)
+}

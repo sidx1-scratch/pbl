@@ -1,0 +1,10 @@
+[package]
+name = "pbl"
+version = "0.4.0"
+edition = "2021"
+description = "PBL (Polar Bear Language) — A compiled language with Python-inspired syntax and Rust underneath"
+license = "Apache-2.0"
+
+[[bin]]
+name = "pbl"
+path = "src/main.rs"
